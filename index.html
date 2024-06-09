@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarreApparel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="gift-categories.html">Gift Categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category1.html">Category 1</a></li>
+                            <li><a href="category2.html">Category 2</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="login.html">Login/Sign up</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="cart.html">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-slide active" style="background-image: url('images/hero1.jpg');" onclick="window.location.href='about-us.html';">
+                <div class="container">
+                    <h1>Hi , Selamat datang!</h1>
+                    <p>Hubungi kami lebih lanjut</p>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: url('images/hero2.jpg');" onclick="window.location.href='products.html';">
+                <div class="container">
+                    <h1>New Collection</h1>
+                    <p>Discover our latest products</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="images/product1.jpg" alt="Product 1">
+                        <h3>Alex Turner Graphic Tshirt </h3>
+                        <p>Code: AT17</p>
+                        <p><a href="login.html" class="btn">Login untuk Membeli</a></p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/product2.jpg" alt="Product 2">
+                        <h3>JohnyGreenwood Graphic Tshirt </h3>
+                        <p>Code: JG18</p>
+                        <p><a href="login.html" class="btn">Login Untuk Membeli</a></p>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BarreApparel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
